@@ -1,0 +1,210 @@
+body{
+    /* height: 100vh;
+    width: 100vw; */
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 30.58%, rgba(211, 211, 211, 0.62) 80.38%); */
+    margin: 0;
+
+}
+
+table{
+    border-spacing: 1mm;
+    /* width: 90vw; */
+   
+    text-align: center;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    table-layout: fixed;
+}
+
+
+
+td {
+    width: 7mm;
+    height: 7mm;
+    border: 1.5px;
+
+    background-color: #D9D9D9;
+    border-style: outset;
+    /* border-color: rgb(198, 198, 198); */
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+.FelixTaylor{
+    color: blue;
+
+}
+
+.PlattenPlaque{
+    text-align: center;
+    border: rgba(23, 23, 23, 0.103) 1px solid;
+    width: 73mm;
+    height: 45mm;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2mm;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    background-image: url("FUfYwwzagAANLt3\ 1.jpg");
+    background-size: cover;
+
+
+}
+
+
+.PlaqueInner{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.FlexContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 30.58%, rgb(211, 211, 211) 80.38%);
+    margin: 0;
+
+}
+
+.Invisible {
+    background-color: #d9d9d900;
+    border-style: none;
+}
+
+.Rotated {
+    width: 4mm;
+    height: 4mm;
+    transform: rotate(45deg) scale(70%);
+    border: 2px;
+    border-style: outset;
+
+    
+
+
+}
+
+.Logo {
+    height: 18mm;
+    margin-top: 14mm;
+    margin-bottom: 14mm;
+    /* color: white; */
+    position: absolute;
+    z-index: 4;
+}
+
+.Blur {
+    height: 18mm;
+    margin-top: 14mm;
+    margin-bottom: 14mm;
+    z-index: 9;
+    filter: blur(3px);
+}
+
+.Fixture1 {
+    position: relative;
+    
+    top: -45mm;
+    left: 2mm;
+    width: 5mm;
+    height: 5mm;
+    background: conic-gradient(from 180deg at 50% 50%, #AF9898 -60deg, #F2F2F2 26.25deg, #D9D9D9 103.13deg, #FBFBFB 191.25deg, #AF9898 300deg, #F2F2F2 386.25deg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 3px 4px 4px rgba(245, 245, 245, 0.12);
+    border-radius: 36px;
+}
+.Fixture2 {
+    position: relative;
+    
+    bottom: 15mm;
+    left: 2mm;
+    width: 5mm;
+    height: 5mm;
+    background: conic-gradient(from 180deg at 50% 50%, #AF9898 -60deg, #F2F2F2 26.25deg, #D9D9D9 103.13deg, #FBFBFB 191.25deg, #AF9898 300deg, #F2F2F2 386.25deg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 3px 4px 4px rgba(245, 245, 245, 0.12);
+    border-radius: 36px;
+}
+.Fixture3 {
+    position: relative;
+    
+    bottom: 56.3mm;
+    left: 65.5mm;
+    width: 5mm;
+    height: 5mm;
+    background: conic-gradient(from 180deg at 50% 50%, #AF9898 -60deg, #F2F2F2 26.25deg, #D9D9D9 103.13deg, #FBFBFB 191.25deg, #AF9898 300deg, #F2F2F2 386.25deg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 3px 4px 4px rgba(245, 245, 245, 0.12);
+    border-radius: 36px;
+}
+.Fixture4 {
+    position: relative;
+    
+    bottom: 26mm;
+    left: 65.5mm;
+    width: 5mm;
+    height: 5mm;
+    background: conic-gradient(from 180deg at 50% 50%, #AF9898 -60deg, #F2F2F2 26.25deg, #D9D9D9 103.13deg, #FBFBFB 191.25deg, #AF9898 300deg, #F2F2F2 386.25deg);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 3px 4px 4px rgba(245, 245, 245, 0.12);
+    border-radius: 36px;
+}
+
+.Cursive {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 1rem;
+}
+
+.Link   {
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.WhiteBoxes{
+    display: none;
+
+
+}
+
+.EmailRowBoxes {
+    border: 1.5px;
+
+    background-color: #ffffff;
+    border-style: inset;
+    transform: rotate(45deg) scale(60%);
+}
+
+.EmailBox{
+    font-size: .8rem;
+    background-color: #ffffff;
+    border-style: inset;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 2mm;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media screen and (max-width: 500px) {
+.Mobile {
+    display: none;
+}
+}
